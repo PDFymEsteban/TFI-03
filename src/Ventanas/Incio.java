@@ -4,8 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.ParseException;
 
-class Inicio extends JFrame{
+class Inicio extends JFrame implements ActionListener{
 
     public static void main(String[] args) {
         Inicio iniciar = new Inicio();
@@ -13,32 +14,20 @@ class Inicio extends JFrame{
 
     }
 
+    JButton button1, button2, button3, button4;
+    JLabel label1, label2, label3, label4, label5;
     public Inicio(){
         //inicio frame
         setSize(400,400);
         setResizable(false);
         setLocationRelativeTo(null);
+        setLayout(null);
 
         setTitle("Iincio");
         //establezco icono de la ventana
         Toolkit sistema = Toolkit.getDefaultToolkit();
         Image icon = sistema.getImage("icono.png");
         setIconImage(icon);
-
-        PanelInicio panel = new PanelInicio();
-        add(panel);
-
-        setVisible(true);
-    }
-}
-
-class PanelInicio extends JPanel implements ActionListener {
-
-    JButton button1, button2, button3, button4;
-    JLabel label1, label2, label3, label4, label5;
-
-    public PanelInicio(){
-        setLayout(null);
 
         //establezco logo del sistema
         ImageIcon logo = new ImageIcon("logoAuto.jfif");
@@ -94,14 +83,32 @@ class PanelInicio extends JPanel implements ActionListener {
         label2.setFont(new Font("Arial",0,12));
         add(label2);
 
+        setVisible(true);
     }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        Object boton = e.getSource();
+        if (e.getSource()==button1){
+            this.setVisible(false);
+            Cargar cargar = new Cargar();
+            cargar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        }
+        if (e.getSource()==button2){
 
+        }
+        if (e.getSource()==button3){
+            Editar editar = new Editar();
+            editar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        }
+        if (e.getSource()==button4){
+            Listar listar = new Listar();
+            listar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        }
     }
-}
+    }
+
+
 /*
 Quiero: una ventana visible para el usuario donde se puedan cargar vehiculos y sus respectivos precios
 

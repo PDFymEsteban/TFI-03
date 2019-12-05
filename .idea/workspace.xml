@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa9e066e-4025-483b-a3fc-ec21ead0950f" name="Default Changelist" comment="" />
+    <list default="true" id="fa9e066e-4025-483b-a3fc-ec21ead0950f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Ventanas/Cargar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Ventanas/Cargar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Ventanas/Inicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Ventanas/Inicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Ventanas/PanelCargar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Ventanas/PanelInicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Ventanas/PanelListar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Ventanas/PanelListar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventanas/Cargar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventanas/Cargar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventanas/Incio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventanas/Incio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventanas/Listar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventanas/Listar.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +27,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TFI-Grupo03" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UUyXtv57oZM1fcl4Wfn1hEn1zK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/VentaVehiculo/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TFI-Grupo03" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

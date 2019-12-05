@@ -34,6 +34,7 @@ class PanelListar extends JPanel implements ActionListener {
     JLabel label1, label2, marca;
     JTextArea resultado;
     JTextField tMarca;
+    JButton buscar;
 
     public PanelListar(){
         setLayout(null);
@@ -54,6 +55,11 @@ class PanelListar extends JPanel implements ActionListener {
         marca.setBounds(5,185,50,20);
         marca.setFont(new Font("Arial",1,14));
         add(marca);
+
+        buscar = new JButton("Buscar");
+        buscar.setBounds(330,185,60,20);
+        buscar.setFont(new Font("Arial",1,14));
+        add(buscar);
 
         tMarca = new JTextField();
         tMarca.setBounds(60,185,130,23);
